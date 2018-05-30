@@ -17,5 +17,5 @@ class Song
     @genre
   end
 
-  @@count
+  @@count = 0
 end
