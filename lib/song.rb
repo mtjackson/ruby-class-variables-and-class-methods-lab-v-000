@@ -5,6 +5,8 @@ class Song
     @genre = genre
   end
 
+  @@count = 0
+
   def name
     @name
   end
@@ -17,5 +19,4 @@ class Song
     @genre
   end
 
-  @@count = 0
 end
