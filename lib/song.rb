@@ -19,4 +19,7 @@ class Song
     @genre
   end
 
+  def count
+    @@count += 1
+
 end
