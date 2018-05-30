@@ -8,7 +8,7 @@ class Song
     @artist = artist
     @genre = genre
     @@count += 1
-    if @@artists[artist] = nil
+    if @@artists[artist] = false
       @@artists << artist
     end
     @@genres << genre
