@@ -30,6 +30,8 @@ class Song
   end
 
   def self.artists
+    @@artists.sort do |a, b|
+      if a == b
     @@artists
   end
 
