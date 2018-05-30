@@ -32,6 +32,7 @@ class Song
   def self.artists
     @@artists.sort do |a, b|
       if a == b
+        @@artists.delete(b)
     @@artists
   end
 
