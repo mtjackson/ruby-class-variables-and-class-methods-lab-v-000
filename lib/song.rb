@@ -56,5 +56,7 @@ class Song
       if artist_count[artist] == nil
         artist_count[artist] = ""
         artist_count[artist] = 1
+      else
+        artist_count[artist] += 1
 
 end
