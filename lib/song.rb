@@ -3,5 +3,6 @@ class Song
   end
 
   def name
+    @name
   end
 end
