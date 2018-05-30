@@ -25,5 +25,7 @@ class Song
     @genre
   end
 
+  def count
+    @@count
 
 end
