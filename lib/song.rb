@@ -1,2 +1,4 @@
 class Song
-  def
+  def new(name, artist, genre)
+  end
+end
